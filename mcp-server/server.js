@@ -15,6 +15,15 @@ let reqId = 0;
 
 const wss = new WebSocketServer({ port: WS_PORT, host: '127.0.0.1' });
 
+wss.on('error', (e) => {
+  if (e.code === 'EADDRINUSE') {
+    console.error(`[NavAgent] Port ${WS_PORT} is already in use. Another instance running? Set NAVAGENT_PORT to use a different port.`);
+  } else {
+    console.error('[NavAgent] WebSocket error:', e.message);
+  }
+  process.exit(1);
+});
+
 wss.on('connection', (socket) => {
   console.error('[NavAgent] Extension connected');
   extSocket = socket;
