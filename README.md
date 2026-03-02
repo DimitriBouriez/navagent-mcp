@@ -4,6 +4,9 @@
 
 # NavAgent
 
+[![npm](https://img.shields.io/npm/v/navagent-mcp)](https://www.npmjs.com/package/navagent-mcp)
+[![license](https://img.shields.io/npm/l/navagent-mcp)](LICENSE)
+
 Ultra-light MCP browser navigation. Token-efficient & anti-bot. Works on any site (SPAs, shadow DOM, iframes).
 
 The AI sees a compact numbered list instead of screenshots or verbose accessibility trees:
