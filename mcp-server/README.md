@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DimitriBouriez/navagent-mcp/main/navagent.png" alt="NavAgent" width="180">
+</p>
+
 # navagent-mcp
 
 Ultra-light MCP browser navigation. Token-efficient & anti-bot. Works on any site (SPAs, shadow DOM, iframes).
