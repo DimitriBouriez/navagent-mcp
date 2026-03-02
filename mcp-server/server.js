@@ -72,7 +72,7 @@ function send(command, params = {}, timeout = 10000) {
 // ============================================
 
 const handlers = createHandlers(send);
-const server = new McpServer({ name: 'navagent', version: '0.1.1' });
+const server = new McpServer({ name: 'navagent', version: '0.1.2' });
 
 server.tool(
   'browse_scan',
