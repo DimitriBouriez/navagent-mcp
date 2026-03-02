@@ -1,0 +1,50 @@
+{
+  "name": "navagent-mcp",
+  "version": "0.1.0",
+  "description": "Ultra-light browser navigation MCP server — ~80 tokens per page instead of screenshots",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "navagent-mcp": "./bin/navagent-mcp.js"
+  },
+  "files": [
+    "server.js",
+    "handlers.js",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "browser",
+    "navigation",
+    "chrome-extension",
+    "ai",
+    "claude",
+    "cursor",
+    "windsurf"
+  ],
+  "author": "Dimitri Bouriez <dimitri.bouriez.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DimitriBouriez/navagent-mcp"
+  },
+  "homepage": "https://github.com/DimitriBouriez/navagent-mcp#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "ws": "^8.18.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "vitest": "^3.0.0"
+  }
+}

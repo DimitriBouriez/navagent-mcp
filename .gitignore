@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# npm
+*.tgz
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+
+# Debug
+*.log
+
+# Build artifacts
+dist/
+build/
