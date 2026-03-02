@@ -152,6 +152,26 @@ Edit `settings.json` → `context_servers`:
 </details>
 
 <details>
+<summary><strong>OpenClaw</strong></summary>
+
+Add to `openclaw.json` → `mcp.servers`:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "navagent": {
+        "command": "npx",
+        "args": ["-y", "navagent-mcp"],
+        "transport": "stdio"
+      }
+    }
+  }
+}
+```
+</details>
+
+<details>
 <summary><strong>Any MCP-compatible client</strong></summary>
 
 NavAgent uses stdio transport. Configure your client to run:

@@ -75,6 +75,24 @@ Edit `~/.cursor/mcp.json`:
 }
 ```
 
+#### OpenClaw
+
+Add to `openclaw.json` → `mcp.servers`:
+
+```json
+{
+  "mcp": {
+    "servers": {
+      "navagent": {
+        "command": "npx",
+        "args": ["-y", "navagent-mcp"],
+        "transport": "stdio"
+      }
+    }
+  }
+}
+```
+
 ## Available tools (12)
 
 | Tool | Description |
