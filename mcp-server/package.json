@@ -1,7 +1,7 @@
 {
   "name": "navagent-mcp",
-  "version": "0.1.0",
-  "description": "Ultra-light browser navigation MCP server — ~80 tokens per page instead of screenshots",
+  "version": "0.1.1",
+  "description": "Ultra-light MCP browser navigation. Token-efficient & anti-bot. Works on any site (SPAs, shadow DOM, iframes).",
   "type": "module",
   "main": "server.js",
   "bin": {

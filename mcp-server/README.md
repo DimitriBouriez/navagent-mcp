@@ -1,6 +1,8 @@
 # navagent-mcp
 
-Ultra-light browser navigation MCP server. The AI sees a numbered list of clickable elements (**~80 tokens**) instead of screenshots (~2000+ tokens).
+Ultra-light MCP browser navigation. Token-efficient & anti-bot. Works on any site (SPAs, shadow DOM, iframes).
+
+The AI sees a compact numbered list instead of screenshots or verbose accessibility trees:
 
 ```
 AI sees:                   AI does:
