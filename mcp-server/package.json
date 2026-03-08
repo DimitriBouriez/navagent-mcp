@@ -1,6 +1,6 @@
 {
   "name": "navagent-mcp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Ultra-light MCP browser navigation. Token-efficient & anti-bot. Works on any site (SPAs, shadow DOM, iframes).",
   "type": "module",
   "main": "server.js",
