@@ -24,7 +24,7 @@ AI sees:                   AI does:
 
 ### 1. Install the Chrome extension
 
-**Chrome Web Store** (recommended): *coming soon*
+**Chrome Web Store** (recommended): [Install NavAgent](https://chromewebstore.google.com/detail/navagent/cdfmgfmlmigfkknncaileajgbknjdepm)
 
 **Or sideload**:
 1. Download/clone the repo

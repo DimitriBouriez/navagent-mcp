@@ -55,7 +55,7 @@ Two components, both required:
 
 ### 1. Install the Chrome extension
 
-**Chrome Web Store** (recommended): *coming soon*
+**Chrome Web Store** (recommended): [Install NavAgent](https://chromewebstore.google.com/detail/navagent/cdfmgfmlmigfkknncaileajgbknjdepm)
 
 **Or sideload:**
 1. Clone this repo
@@ -256,7 +256,7 @@ Default: `61822`. To change:
 ## Security
 
 - WebSocket listens on **localhost only** (`127.0.0.1`) — no external connections
-- Extension uses minimal permissions: `activeTab`, `scripting`, `storage`, `alarms`
+- Extension uses minimal permissions: `activeTab`, `storage`, `alarms`
 - No telemetry, no data sent anywhere
 - Uses `chrome.tabs.sendMessage` (native extension messaging), not CDP — no `navigator.webdriver` flag, undetectable by anti-bot systems
 

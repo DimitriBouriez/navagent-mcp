@@ -9,7 +9,7 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-  "permissions": ["activeTab", "scripting", "alarms", "storage"],
+  "permissions": ["activeTab", "alarms", "storage"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"
